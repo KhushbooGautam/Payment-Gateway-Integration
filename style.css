@@ -1,0 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    box-sizing: border-box;
+    padding: 5px 10px;
+    background-color: aqua;
+}
+#image{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 5%;
+    padding: 5px;
+    margin-top: 4px;
+    margin-left:5px ;
+    background-color: aliceblue;
+    
+}
+#text{
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: text-bottom;
+    padding: 10px 15px 10px ;
+    font-size: 40px;
+    font-family: serif;
+    font-weight: bold;
+    text-shadow: 2px 2px #FF0000;
+}
+.header-right{
+    display: block;
+    float: right;
+    
+    padding: 27px 20px 10px;
+}
+#right{
+    text-decoration: none;
+    margin: 0px 20px;
+    padding: 5px 20px;
+    
+    font-size: 22px;
+}
+a:hover{
+    color: rgb(173, 3, 3);
+    background-color: beige;
+    font-weight: bold;
+}
+.donatenow{
+    position: absolute;
+    top: 20%;
+    left: 3%;
+}
+#logo{
+    width: 10%;
+    position: absolute;
+    top: 15%;
+    left:42%
+}
+#logo {
+    animation-name: spin;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    -webkit-animation-name: spin;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 5s;
+}
+
+@keyframes spin {
+    from {
+      transform: rotateY(0deg);
+      ms-transform: rotateY(0deg); 
+    }
+  
+    to {
+      transform: rotateY(360deg);
+      ms-transform: rotateY(360deg);
+    }
+  }
+  
+  @-webkit-keyframes spin {
+    from {
+      -webkit-transform: rotateY(0deg);
+    }
+  
+    to {
+      -webkit-transform: rotateY(360deg);
+    }
+  }
+p{
+  position: absolute;
+  text-align: center;
+  top: 38%;
+  left: 39%;
+  font-size: 20px;
+  font-weight: bold;
+  color: crimson;
+  font-family:serif;
+}
